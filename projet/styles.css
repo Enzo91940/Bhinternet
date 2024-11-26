@@ -1,0 +1,166 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-color: #ffc600;
+    color: #000;
+    text-align: center;
+    padding: 1px 0;
+    margin-top: 0;
+  }
+  
+  .navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 0px;
+  }
+  
+  
+  
+  .navbar .nav-liens {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar .nav-liens li a {
+    color: #fff;
+    text-decoration: none;
+
+  }
+  
+  .navbar .devis {
+    background-color: #e63946;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .main {
+    background-image: url('download.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .main-contenu {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 10px; 
+    max-width: 40%; 
+    border: 2px solid #000; 
+    text-align: center;
+    margin-left: 40px;
+  }
+  
+  .main-contenu h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .main-contenu .budget-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-contenu {
+    background: black;
+    padding: 30px;
+    max-width: 300px;
+    border-radius: 8px;
+    color: white;
+    margin-right: 200px;
+}
+
+.form-contenu h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-contenu form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center
+}
+
+.form-row div {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.form-row p,
+.form-row h7 {
+    margin: 0; 
+    font-size: 14px; 
+    line-height: 1.2; 
+}
+
+.form-contenu input,
+.form-contenu select,
+.form-contenu button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.form-contenu button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+}
+
+  .bienvenue {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  .bienvenue h2 {
+    font-size: 36px; 
+    font-weight: 700; 
+    margin-bottom: 30px;
+  }
+  .bienvenue p {
+    color: gray; 
+}
+  
+footer {
+  position: fixed; 
+  bottom: 0; 
+  right: 0; 
+  background-color: #e63946; 
+  color: #fff; 
+  padding: 15px 20px; 
+  border-top-left-radius: 10px;
+  text-align: center; 
+}
+
+
+  
